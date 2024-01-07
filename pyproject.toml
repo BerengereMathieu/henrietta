@@ -1,0 +1,15 @@
+[project]
+name = "henrietta"
+description = "get horizontal coordinate of observable planets from a reference point"
+version = "0.1.0"
+authors = [
+    { name = "Berengere Mathieu", email = "berengere.mathieu@protonmail.fr" }
+]
+dependencies = [
+    "ephem",
+    "astropy",
+    "python-dateutil",
+    "pandas",
+    "jplephem",
+    "cherrypy"
+]
